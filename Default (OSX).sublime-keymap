@@ -23,5 +23,8 @@
   { "keys": ["alt+9"], "command": "select_by_index", "args": { "index": 8 } },
   { "keys": ["alt+0"], "command": "select_by_index", "args": { "index": 9 } },
 
-  { "keys": ["super+k", "super+m"], "command": "set_mark" }
+  { "keys": ["super+k", "super+m"], "command": "set_mark" },
+
+  { "keys": ["ctrl+g"], "command": "find_next" },
+  { "keys": ["super+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} }
 ]
